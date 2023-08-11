@@ -874,7 +874,9 @@
 		}
 
 /* Main */
-
+	#noupper {
+		text-transform: uppercase;
+	}
 	#main {
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
