@@ -161,6 +161,9 @@
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
 	}
+	noupper {
+		text-transform: none;
+	}
 
 		@media screen and (max-width: 1680px) {
 
@@ -874,9 +877,6 @@
 		}
 
 /* Main */
-	#noupper {
-		text-transform: uppercase;
-	}
 	#main {
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
